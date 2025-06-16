@@ -1,0 +1,31 @@
+.create-post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  background-color: #fff9c4;
+  max-width: 17%;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.create-post__text {
+  max-width: 85%;
+}
+
+.create-post__span {
+  color: #212121;
+  font-size: 30px;
+}
+
+.create-post__span-accent {
+  color: #9c27b0;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.create-post__image {
+  max-width: 85%;
+  align-self: center;
+}

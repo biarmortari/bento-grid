@@ -1,0 +1,44 @@
+.stars {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 40%;
+  height: 300px;
+  border-radius: 8px;
+  background-color: hsl(256, 67%, 59%);
+}
+
+.stars__text {
+  font-size: 50px;
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 1px;
+  align-self: center;
+  text-align: center;
+  max-width: 80%;
+  line-height: 50px;
+}
+
+.stars__span-yellow {
+  color: hsl(39, 100%, 71%);
+}
+
+.stars__span-italic {
+  font-style: italic;
+}
+
+.stars__image {
+  max-width: 25%;
+  padding-top: 4%;
+  padding-bottom: 1%;
+}
+
+.stars__subtitle {
+  font-size: 15px;
+  color: hsl(254, 88%, 90%);
+  letter-spacing: -0.5px;
+  align-self: center;
+  text-align: center;
+  max-width: 80%;
+  margin: 0;
+}
