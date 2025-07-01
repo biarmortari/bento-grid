@@ -1,0 +1,29 @@
+.multiple-platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  max-width: 17%;
+  height: 160px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 0;
+}
+
+.multiple-platforms__img {
+  max-width: 90%;
+  align-self: center;
+  padding-bottom: 10px;
+}
+
+.multiple-platforms__text {
+  font-size: 25px;
+  letter-spacing: -2px;
+  align-self: start;
+  text-align: start;
+  line-height: 20px;
+  max-width: 70%;
+  margin: 0;
+  padding-left: 15px;
+}
