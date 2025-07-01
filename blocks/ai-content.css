@@ -1,0 +1,26 @@
+.ai-content {
+  background-color: hsl(39, 100%, 71%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+  max-width: 17%;
+  height: 380px;
+  border-radius: 8px;
+}
+
+.ai-content__text {
+  max-width: 80%;
+  font-size: 30px;
+  color: hsl(0, 0%, 0%);
+  letter-spacing: -1.8px;
+  padding: 15px;
+  margin: 0;
+}
+
+.ai-content__image {
+  max-width: 85%;
+  align-self: center;
+  padding-bottom: 10px;
+}
