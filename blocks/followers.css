@@ -1,0 +1,30 @@
+.followers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180px;
+  border-radius: 8px;
+  font-size: 40px;
+  background-color: hsl(256, 67%, 59%);
+  color: hsl(0, 0%, 100%);
+  max-width: 40%;
+  margin: 0;
+}
+
+.followers__image {
+  max-width: 35%;
+  align-self: center;
+  padding: 20px;
+  margin: 0;
+}
+
+.followers__text {
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  align-self: center;
+  text-align: flex-end;
+  max-width: 80%;
+  line-height: 30px;
+  padding: 20px;
+  margin: 0;
+}
