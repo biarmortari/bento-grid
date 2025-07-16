@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   background-color: hsl(254, 88%, 90%);
-  max-width: 17%;
   height: 400px;
   border-radius: 8px;
+  grid-area: box3;
 }
 
 .schedule-posts__text {

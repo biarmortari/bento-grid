@@ -4,11 +4,11 @@
   align-items: center;
   justify-content: center;
   background-color: hsl(39, 100%, 71%);
-  max-width: 17%;
   height: 180px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
+  grid-area: box6;
 }
 
 .consistent-schedule__text {

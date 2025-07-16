@@ -4,10 +4,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5%;
-  max-width: 17%;
   height: 380px;
   border-radius: 8px;
+  grid-area: box4;
 }
 
 .ai-content__text {
